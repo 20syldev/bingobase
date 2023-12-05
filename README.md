@@ -5,7 +5,7 @@
   <br>
   <h2>- BingoBase - Dépôt Officiel -</h2>
   <a href="https://20syldev.github.io/bingobase">
-    <img src="https://img.shields.io/badge/Site :-v0.0.1-6479ee?labelColor=23272A" alt="Site">
+    <img src="https://img.shields.io/badge/Site :-v0.1.0-6479ee?labelColor=23272A" alt="Site">
   </a>
 </div>
 
