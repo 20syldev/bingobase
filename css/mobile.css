@@ -81,11 +81,10 @@ p {
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
     color: #ffffff;
-    margin-left: -15%
 }
 
 #page {
-    margin-top: 2em;
+    margin-top: 50em;
 }
 
 .sub {
@@ -255,6 +254,42 @@ br {
     color: #ffffff;
 }
 
+.btnsCancel {
+    user-select: none;
+    font-family: 'Ginto-Nord-500', sans-serif;
+    font-size: 2em;
+    width: 280px;
+    height: 80px;
+    padding: 10px 25px;
+    border: 2px solid;
+    border-radius: 40px;
+    border-color: #ffffff;
+    color: #ffffff;
+    background: #171824;
+    cursor: pointer;
+    transition: all .3s ease;
+    position: relative;
+    animation: shine 3s ease-in-out infinite;
+}
+
+.btnsCancel img {
+    width: 24px;
+    height: 24px;
+    margin: -3px;
+    filter: invert(100%);
+}
+
+.btnsCancel:hover img {
+    animation: shine 3s ease-in-out infinite;
+    transform: translate(-5px);
+    filter: brightness(0) saturate(100%) invert(32%) sepia(65%) saturate(4600%) hue-rotate(205deg) brightness(93%) contrast(104%);
+}
+
+.btnsCancel:hover {
+    background-color: #ffffff;
+    color: #0168ee;
+}
+
 .copyBtn {
     
     user-select: none;
@@ -290,8 +325,7 @@ br {
 
 .copiedText {
     position: absolute;
-    bottom: 0.5%;
-    left: 85%;
+    top: 20%;
     font-family: 'Montserrat', sans-serif;
     transform: translate(-15px, -10px);
     background-color: #0168ee;
