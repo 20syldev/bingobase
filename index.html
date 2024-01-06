@@ -4,7 +4,6 @@
     <title>BingoBase - Accueil</title>
     <meta content="text/html" charset="utf-8"/>
     <meta name="google-site-verification" content="omlC3mdFDa67MUgxHe4g266UEsY-REJAvPlIHzX9RUM" />
-    <link rel="stylesheet" href="css/style.css" type="text/css"/>
     <link rel="stylesheet" media="handheld, only screen and (max-device-width: 480px)" type="text/css" href="css/mobile.css"/>
     <link rel="icon" href="images/bingobase.png">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;690&display=swap" rel="stylesheet">    
@@ -26,6 +25,23 @@
   <button class="btnsCancel" onclick=" " data-link=" "><img src="images/undo.png" alt="Copier">&nbsp; &nbsp; Annuler</button>
   <br><br><br>
 </div>
+
+    <!-- Formulaire d'enregistrement de pseudo -->
+    <form id="formEnregistrement">
+        <label for="pseudo">Pseudo :</label>
+        <input type="text" id="pseudo" name="pseudo" required>
+        <button type="button" onclick="enregistrerPseudo()">Enregistrer</button>
+    </form>
+
+    <!-- Formulaire de recherche de pseudo -->
+    <form id="formRecherche">
+        <label for="pseudoRecherche">Rechercher Pseudo :</label>
+        <input type="text" id="pseudoRecherche" name="pseudoRecherche" required>
+        <button type="button" onclick="rechercherPseudo()">Rechercher</button>
+    </form>
+
+    <!-- Résultats de la recherche -->
+    <div id="resultats"></div>
 
 
 </body>
